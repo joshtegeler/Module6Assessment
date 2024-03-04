@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<h1>Car by user page</h1>
+<h1>View Inventories</h1>
 <form method="post" action="inventorynavigationServlet">
 <table>
 <c:forEach items="${requestScope.allInventories}" var="currentinventory">
@@ -22,7 +22,7 @@
 </tr>
 	
 <tr>
-	<td colspan="3">Trip Date: ${currentinventory.startDate}</td>
+	<td colspan="3">Hire Date: ${currentinventory.startDate}</td>
 </tr>
 
 <tr>

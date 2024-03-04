@@ -14,7 +14,7 @@
 <h1> Create New Inventory</h1>
 <form action = "createNewInventoryServlet" method="post">
 Inventory Name: <input type="text" name = "inventoryName"><br />
-Trip Date: <input type="text" name = "month" placeholder="mm" size="4">
+Hire Date: <input type="text" name = "month" placeholder="mm" size="4">
 <input type="text" name = "day" placeholder="dd" size="4">
 <input type="text" name = "year" placeholder="yyyy" size="4">
 Salesman Name: <input type="text" name = "salesmanName"><br />
